@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="Account property" Url="html/P_AppVisum_Sys_IAppEmailSender_Account.htm" />
+  <HelpKINode Title="AppPluginStatus enumeration" Url="html/T_AppVisum_Sys_AppPluginStatus.htm" />
+  <HelpKINode Title="appProvider field" Url="html/F_AppVisum_Sys_Install_WizzardStep_appProvider.htm" />
+  <HelpKINode Title="AppSys class" Url="html/AllMembers_T_AppVisum_Sys_AppSys.htm" />
+  <HelpKINode Title="AppSys class" Url="html/T_AppVisum_Sys_AppSys.htm" />
+  <HelpKINode Title="AppSys class">
+    <HelpKINode Title="about AppSys class" Url="html/T_AppVisum_Sys_AppSys.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_AppSys.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_AppSys.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_AppSys.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppSys.DecryptString method" Url="html/M_AppVisum_Sys_AppSys_DecryptString.htm" />
+  <HelpKINode Title="AppSys.EncryptString method" Url="html/M_AppVisum_Sys_AppSys_EncryptString.htm" />
+  <HelpKINode Title="AppSys.GetDBSession method" Url="html/M_AppVisum_Sys_AppSys_GetDBSession.htm" />
+  <HelpKINode Title="AppSys.GetPluginById method" Url="html/Overload_AppVisum_Sys_AppSys_GetPluginById.htm" />
+  <HelpKINode Title="AppSys.GetPluginId method" Url="html/M_AppVisum_Sys_AppSys_GetPluginId.htm" />
+  <HelpKINode Title="AppSys.GetTypeMatchingPlugins method" Url="html/M_AppVisum_Sys_AppSys_GetTypeMatchingPlugins.htm" />
+  <HelpKINode Title="AppSys.HashString method" Url="html/M_AppVisum_Sys_AppSys_HashString.htm" />
+  <HelpKINode Title="AppSys.Instance property" Url="html/P_AppVisum_Sys_AppSys_Instance.htm" />
+  <HelpKINode Title="AppSys.PluginConfigs property" Url="html/P_AppVisum_Sys_AppSys_PluginConfigs.htm" />
+  <HelpKINode Title="AppSys.Plugins property" Url="html/P_AppVisum_Sys_AppSys_Plugins.htm" />
+  <HelpKINode Title="AppSys.PluginSettings property" Url="html/P_AppVisum_Sys_AppSys_PluginSettings.htm" />
+  <HelpKINode Title="AppSys.Restart method" Url="html/M_AppVisum_Sys_AppSys_Restart.htm" />
+  <HelpKINode Title="AppVisum.Sys namespace" Url="html/N_AppVisum_Sys.htm" />
+  <HelpKINode Title="AppVisum.Sys.AppPluginStatus enumeration" Url="html/T_AppVisum_Sys_AppPluginStatus.htm" />
+  <HelpKINode Title="AppVisum.Sys.AppSys class" Url="html/AllMembers_T_AppVisum_Sys_AppSys.htm" />
+  <HelpKINode Title="AppVisum.Sys.AppSys class" Url="html/T_AppVisum_Sys_AppSys.htm" />
+  <HelpKINode Title="AppVisum.Sys.Configuration namespace" Url="html/N_AppVisum_Sys_Configuration.htm" />
+  <HelpKINode Title="AppVisum.Sys.Configuration.Plugin class" Url="html/AllMembers_T_AppVisum_Sys_Configuration_Plugin.htm" />
+  <HelpKINode Title="AppVisum.Sys.Configuration.Plugin class" Url="html/T_AppVisum_Sys_Configuration_Plugin.htm" />
+  <HelpKINode Title="AppVisum.Sys.Configuration.PluginBinding class" Url="html/AllMembers_T_AppVisum_Sys_Configuration_PluginBinding.htm" />
+  <HelpKINode Title="AppVisum.Sys.Configuration.PluginBinding class" Url="html/T_AppVisum_Sys_Configuration_PluginBinding.htm" />
+  <HelpKINode Title="AppVisum.Sys.Configuration.PluginStatus enumeration" Url="html/T_AppVisum_Sys_Configuration_PluginStatus.htm" />
+  <HelpKINode Title="AppVisum.Sys.CustomAnnotations namespace" Url="html/N_AppVisum_Sys_CustomAnnotations.htm" />
+  <HelpKINode Title="AppVisum.Sys.CustomAnnotations.EmailAttribute class" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_EmailAttribute.htm" />
+  <HelpKINode Title="AppVisum.Sys.CustomAnnotations.EmailAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_EmailAttribute.htm" />
+  <HelpKINode Title="AppVisum.Sys.CustomAnnotations.FunctionPickAttribute class" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute.htm" />
+  <HelpKINode Title="AppVisum.Sys.CustomAnnotations.FunctionPickAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute.htm" />
+  <HelpKINode Title="AppVisum.Sys.CustomAnnotations.MatchesAttribute class" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_MatchesAttribute.htm" />
+  <HelpKINode Title="AppVisum.Sys.CustomAnnotations.MatchesAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_MatchesAttribute.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppContentProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppContentProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppContentProvider interface" Url="html/T_AppVisum_Sys_IAppContentProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppEmailAccount interface" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailAccount.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppEmailAccount interface" Url="html/T_AppVisum_Sys_IAppEmailAccount.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppEmailProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppEmailProvider interface" Url="html/T_AppVisum_Sys_IAppEmailProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppEmailSender interface" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailSender.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppEmailSender interface" Url="html/T_AppVisum_Sys_IAppEmailSender.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppInstancedProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppInstancedProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppInstancedProvider interface" Url="html/T_AppVisum_Sys_IAppInstancedProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppMembershipProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppMembershipProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppMembershipProvider interface" Url="html/T_AppVisum_Sys_IAppMembershipProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppModelProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppModelProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppModelProvider interface" Url="html/T_AppVisum_Sys_IAppModelProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppProvider interface" Url="html/T_AppVisum_Sys_IAppProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppProviderInstallWizzard interface" Url="html/AllMembers_T_AppVisum_Sys_IAppProviderInstallWizzard.htm" />
+  <HelpKINode Title="AppVisum.Sys.IAppProviderInstallWizzard interface" Url="html/T_AppVisum_Sys_IAppProviderInstallWizzard.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install namespace" Url="html/N_AppVisum_Sys_Install.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.DisplayInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_DisplayInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.DisplayInstallField class" Url="html/T_AppVisum_Sys_Install_DisplayInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.IInstallField interface" Url="html/AllMembers_T_AppVisum_Sys_Install_IInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.IInstallField interface" Url="html/T_AppVisum_Sys_Install_IInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.InputInstallField(Of T) class" Url="html/AllMembers_T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.InputInstallField(Of T) class" Url="html/T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.InputInstallField&lt;T&gt; class" Url="html/AllMembers_T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.InputInstallField&lt;T&gt; class" Url="html/T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.IWizzardStep interface" Url="html/AllMembers_T_AppVisum_Sys_Install_IWizzardStep.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.IWizzardStep interface" Url="html/T_AppVisum_Sys_Install_IWizzardStep.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.LableInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_LableInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.LableInstallField class" Url="html/T_AppVisum_Sys_Install_LableInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.PasswordInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_PasswordInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.PasswordInstallField class" Url="html/T_AppVisum_Sys_Install_PasswordInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.TextBoxInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_TextBoxInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.TextBoxInstallField class" Url="html/T_AppVisum_Sys_Install_TextBoxInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.TitleInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_TitleInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.TitleInstallField class" Url="html/T_AppVisum_Sys_Install_TitleInstallField.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.WizzardStep class" Url="html/AllMembers_T_AppVisum_Sys_Install_WizzardStep.htm" />
+  <HelpKINode Title="AppVisum.Sys.Install.WizzardStep class" Url="html/T_AppVisum_Sys_Install_WizzardStep.htm" />
+  <HelpKINode Title="AppVisum.Sys.ModelBinders namespace" Url="html/N_AppVisum_Sys_ModelBinders.htm" />
+  <HelpKINode Title="AppVisum.Sys.ModelBinders.IAppProviderModelBinder class" Url="html/AllMembers_T_AppVisum_Sys_ModelBinders_IAppProviderModelBinder.htm" />
+  <HelpKINode Title="AppVisum.Sys.ModelBinders.IAppProviderModelBinder class" Url="html/T_AppVisum_Sys_ModelBinders_IAppProviderModelBinder.htm" />
+  <HelpKINode Title="AppVisum.Sys.ModelBinders.WizzardStepModelBinder class" Url="html/AllMembers_T_AppVisum_Sys_ModelBinders_WizzardStepModelBinder.htm" />
+  <HelpKINode Title="AppVisum.Sys.ModelBinders.WizzardStepModelBinder class" Url="html/T_AppVisum_Sys_ModelBinders_WizzardStepModelBinder.htm" />
+  <HelpKINode Title="AppVisum.Sys.Plugin class" Url="html/AllMembers_T_AppVisum_Sys_Plugin.htm" />
+  <HelpKINode Title="AppVisum.Sys.Plugin class" Url="html/T_AppVisum_Sys_Plugin.htm" />
+  <HelpKINode Title="AppVisum.Sys.PluginSettingsProvider class" Url="html/AllMembers_T_AppVisum_Sys_PluginSettingsProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.PluginSettingsProvider class" Url="html/T_AppVisum_Sys_PluginSettingsProvider.htm" />
+  <HelpKINode Title="AppVisum.Sys.TypeConverters namespace" Url="html/N_AppVisum_Sys_TypeConverters.htm" />
+  <HelpKINode Title="AppVisum.Sys.TypeConverters.IAppProviderTypeConverter class" Url="html/AllMembers_T_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter.htm" />
+  <HelpKINode Title="AppVisum.Sys.TypeConverters.IAppProviderTypeConverter class" Url="html/T_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter.htm" />
+  <HelpKINode Title="AppVisum.Sys.TypeExtensions class" Url="html/AllMembers_T_AppVisum_Sys_TypeExtensions.htm" />
+  <HelpKINode Title="AppVisum.Sys.TypeExtensions class" Url="html/T_AppVisum_Sys_TypeExtensions.htm" />
+  <HelpKINode Title="Authenticate method" Url="html/M_AppVisum_Sys_IAppMembershipProvider_Authenticate.htm" />
+  <HelpKINode Title="Bindings property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Bindings.htm" />
+  <HelpKINode Title="Bindings property" Url="html/P_AppVisum_Sys_Plugin_Bindings.htm" />
+  <HelpKINode Title="BindModel method" Url="html/M_AppVisum_Sys_ModelBinders_IAppProviderModelBinder_BindModel.htm" />
+  <HelpKINode Title="BindModel method" Url="html/M_AppVisum_Sys_ModelBinders_WizzardStepModelBinder_BindModel.htm" />
+  <HelpKINode Title="CanConvertFrom method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_CanConvertFrom.htm" />
+  <HelpKINode Title="CanConvertTo method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_CanConvertTo.htm" />
+  <HelpKINode Title="ConvertFrom method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertFrom.htm" />
+  <HelpKINode Title="ConvertFromInvariantString method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertFromInvariantString.htm" />
+  <HelpKINode Title="ConvertFromString method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertFromString.htm" />
+  <HelpKINode Title="ConvertTo method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertTo.htm" />
+  <HelpKINode Title="ConvertToInvariantString method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertToInvariantString.htm" />
+  <HelpKINode Title="ConvertToString method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertToString.htm" />
+  <HelpKINode Title="CreateInstance method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_CreateInstance.htm" />
+  <HelpKINode Title="DbId property" Url="html/P_AppVisum_Sys_Plugin_DbId.htm" />
+  <HelpKINode Title="DecryptString method" Url="html/M_AppVisum_Sys_AppSys_DecryptString.htm" />
+  <HelpKINode Title="Disabled enumeration member" Url="html/T_AppVisum_Sys_Configuration_PluginStatus.htm" />
+  <HelpKINode Title="DisplayInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_DisplayInstallField.htm" />
+  <HelpKINode Title="DisplayInstallField class" Url="html/T_AppVisum_Sys_Install_DisplayInstallField.htm" />
+  <HelpKINode Title="DisplayInstallField class">
+    <HelpKINode Title="about DisplayInstallField class" Url="html/T_AppVisum_Sys_Install_DisplayInstallField.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_DisplayInstallField.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Install_DisplayInstallField__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_DisplayInstallField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisplayInstallField.DisplayInstallField constructor" Url="html/M_AppVisum_Sys_Install_DisplayInstallField__ctor.htm" />
+  <HelpKINode Title="DisplayInstallField.Parse method" Url="html/M_AppVisum_Sys_Install_DisplayInstallField_Parse.htm" />
+  <HelpKINode Title="DisplayInstallField.Render method" Url="html/M_AppVisum_Sys_Install_DisplayInstallField_Render.htm" />
+  <HelpKINode Title="Email property" Url="html/P_AppVisum_Sys_IAppEmailAccount_Email.htm" />
+  <HelpKINode Title="EmailAttribute class" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_EmailAttribute.htm" />
+  <HelpKINode Title="EmailAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_EmailAttribute.htm" />
+  <HelpKINode Title="EmailAttribute class">
+    <HelpKINode Title="about EmailAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_EmailAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_EmailAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_CustomAnnotations_EmailAttribute__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_CustomAnnotations_EmailAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_CustomAnnotations_EmailAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmailAttribute.EmailAttribute constructor" Url="html/M_AppVisum_Sys_CustomAnnotations_EmailAttribute__ctor.htm" />
+  <HelpKINode Title="EmailAttribute.IsValid method" Url="html/Overload_AppVisum_Sys_CustomAnnotations_EmailAttribute_IsValid.htm" />
+  <HelpKINode Title="EmailAttribute.Validate method" Url="html/Overload_AppVisum_Sys_CustomAnnotations_EmailAttribute_Validate.htm" />
+  <HelpKINode Title="Enabled enumeration member" Url="html/T_AppVisum_Sys_AppPluginStatus.htm" />
+  <HelpKINode Title="Enabled enumeration member" Url="html/T_AppVisum_Sys_Configuration_PluginStatus.htm" />
+  <HelpKINode Title="EncryptString method" Url="html/M_AppVisum_Sys_AppSys_EncryptString.htm" />
+  <HelpKINode Title="FunctionPickAttribute class" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute.htm" />
+  <HelpKINode Title="FunctionPickAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute.htm" />
+  <HelpKINode Title="FunctionPickAttribute class">
+    <HelpKINode Title="about FunctionPickAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionPickAttribute.FunctionPickAttribute constructor" Url="html/M_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute__ctor.htm" />
+  <HelpKINode Title="FunctionPickAttribute.GetFunc method" Url="html/M_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute_GetFunc.htm" />
+  <HelpKINode Title="Get method" Url="html/M_AppVisum_Sys_PluginSettingsProvider_Get.htm" />
+  <HelpKINode Title="GetAccounts method" Url="html/M_AppVisum_Sys_IAppEmailProvider_GetAccounts.htm" />
+  <HelpKINode Title="GetCreateInstanceSupported method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetCreateInstanceSupported.htm" />
+  <HelpKINode Title="GetDBSession method" Url="html/M_AppVisum_Sys_AppSys_GetDBSession.htm" />
+  <HelpKINode Title="GetFunc method" Url="html/M_AppVisum_Sys_CustomAnnotations_FunctionPickAttribute_GetFunc.htm" />
+  <HelpKINode Title="GetPluginById method" Url="html/Overload_AppVisum_Sys_AppSys_GetPluginById.htm" />
+  <HelpKINode Title="GetPluginDbId method" Url="html/M_AppVisum_Sys_Plugin_GetPluginDbId.htm" />
+  <HelpKINode Title="GetPluginId method" Url="html/M_AppVisum_Sys_AppSys_GetPluginId.htm" />
+  <HelpKINode Title="GetPluginId method" Url="html/M_AppVisum_Sys_Plugin_GetPluginId.htm" />
+  <HelpKINode Title="GetProperties method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetProperties.htm" />
+  <HelpKINode Title="GetPropertiesSupported method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetPropertiesSupported.htm" />
+  <HelpKINode Title="GetSender method" Url="html/M_AppVisum_Sys_IAppEmailProvider_GetSender.htm" />
+  <HelpKINode Title="GetStandardValues method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetStandardValues.htm" />
+  <HelpKINode Title="GetStandardValuesExclusive method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetStandardValuesExclusive.htm" />
+  <HelpKINode Title="GetStandardValuesSupported method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetStandardValuesSupported.htm" />
+  <HelpKINode Title="GetStep method" Url="html/M_AppVisum_Sys_IAppProviderInstallWizzard_GetStep.htm" />
+  <HelpKINode Title="GetTitle method" Url="html/M_AppVisum_Sys_Install_IWizzardStep_GetTitle.htm" />
+  <HelpKINode Title="GetTitle method" Url="html/M_AppVisum_Sys_Install_WizzardStep_GetTitle.htm" />
+  <HelpKINode Title="GetTypeMatchingPlugins method" Url="html/M_AppVisum_Sys_AppSys_GetTypeMatchingPlugins.htm" />
+  <HelpKINode Title="HandleStep method" Url="html/M_AppVisum_Sys_IAppProviderInstallWizzard_HandleStep.htm" />
+  <HelpKINode Title="HashString method" Url="html/M_AppVisum_Sys_AppSys_HashString.htm" />
+  <HelpKINode Title="HasInstallWizzard property" Url="html/P_AppVisum_Sys_Plugin_HasInstallWizzard.htm" />
+  <HelpKINode Title="HasInterface method" Url="html/M_AppVisum_Sys_TypeExtensions_HasInterface.htm" />
+  <HelpKINode Title="IAppContentProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppContentProvider.htm" />
+  <HelpKINode Title="IAppContentProvider interface" Url="html/T_AppVisum_Sys_IAppContentProvider.htm" />
+  <HelpKINode Title="IAppContentProvider interface">
+    <HelpKINode Title="about IAppContentProvider interface" Url="html/T_AppVisum_Sys_IAppContentProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppContentProvider.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppContentProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppEmailAccount interface" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailAccount.htm" />
+  <HelpKINode Title="IAppEmailAccount interface" Url="html/T_AppVisum_Sys_IAppEmailAccount.htm" />
+  <HelpKINode Title="IAppEmailAccount interface">
+    <HelpKINode Title="about IAppEmailAccount interface" Url="html/T_AppVisum_Sys_IAppEmailAccount.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailAccount.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppEmailAccount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppEmailAccount.Email property" Url="html/P_AppVisum_Sys_IAppEmailAccount_Email.htm" />
+  <HelpKINode Title="IAppEmailAccount.Name property" Url="html/P_AppVisum_Sys_IAppEmailAccount_Name.htm" />
+  <HelpKINode Title="IAppEmailProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailProvider.htm" />
+  <HelpKINode Title="IAppEmailProvider interface" Url="html/T_AppVisum_Sys_IAppEmailProvider.htm" />
+  <HelpKINode Title="IAppEmailProvider interface">
+    <HelpKINode Title="about IAppEmailProvider interface" Url="html/T_AppVisum_Sys_IAppEmailProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_IAppEmailProvider.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppEmailProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppEmailProvider.GetAccounts method" Url="html/M_AppVisum_Sys_IAppEmailProvider_GetAccounts.htm" />
+  <HelpKINode Title="IAppEmailProvider.GetSender method" Url="html/M_AppVisum_Sys_IAppEmailProvider_GetSender.htm" />
+  <HelpKINode Title="IAppEmailSender interface" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailSender.htm" />
+  <HelpKINode Title="IAppEmailSender interface" Url="html/T_AppVisum_Sys_IAppEmailSender.htm" />
+  <HelpKINode Title="IAppEmailSender interface">
+    <HelpKINode Title="about IAppEmailSender interface" Url="html/T_AppVisum_Sys_IAppEmailSender.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppEmailSender.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_IAppEmailSender.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppEmailSender.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppEmailSender.Account property" Url="html/P_AppVisum_Sys_IAppEmailSender_Account.htm" />
+  <HelpKINode Title="IAppEmailSender.Send method" Url="html/M_AppVisum_Sys_IAppEmailSender_Send.htm" />
+  <HelpKINode Title="IAppInstancedProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppInstancedProvider.htm" />
+  <HelpKINode Title="IAppInstancedProvider interface" Url="html/T_AppVisum_Sys_IAppInstancedProvider.htm" />
+  <HelpKINode Title="IAppInstancedProvider interface">
+    <HelpKINode Title="about IAppInstancedProvider interface" Url="html/T_AppVisum_Sys_IAppInstancedProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppInstancedProvider.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppInstancedProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppMembershipProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppMembershipProvider.htm" />
+  <HelpKINode Title="IAppMembershipProvider interface" Url="html/T_AppVisum_Sys_IAppMembershipProvider.htm" />
+  <HelpKINode Title="IAppMembershipProvider interface">
+    <HelpKINode Title="about IAppMembershipProvider interface" Url="html/T_AppVisum_Sys_IAppMembershipProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppMembershipProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_IAppMembershipProvider.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppMembershipProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppMembershipProvider.Authenticate method" Url="html/M_AppVisum_Sys_IAppMembershipProvider_Authenticate.htm" />
+  <HelpKINode Title="IAppModelProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppModelProvider.htm" />
+  <HelpKINode Title="IAppModelProvider interface" Url="html/T_AppVisum_Sys_IAppModelProvider.htm" />
+  <HelpKINode Title="IAppModelProvider interface">
+    <HelpKINode Title="about IAppModelProvider interface" Url="html/T_AppVisum_Sys_IAppModelProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppModelProvider.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppModelProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppProvider interface" Url="html/AllMembers_T_AppVisum_Sys_IAppProvider.htm" />
+  <HelpKINode Title="IAppProvider interface" Url="html/T_AppVisum_Sys_IAppProvider.htm" />
+  <HelpKINode Title="IAppProvider interface">
+    <HelpKINode Title="about IAppProvider interface" Url="html/T_AppVisum_Sys_IAppProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppProvider.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppProvider.Name property" Url="html/P_AppVisum_Sys_IAppProvider_Name.htm" />
+  <HelpKINode Title="IAppProviderInstallWizzard interface" Url="html/AllMembers_T_AppVisum_Sys_IAppProviderInstallWizzard.htm" />
+  <HelpKINode Title="IAppProviderInstallWizzard interface" Url="html/T_AppVisum_Sys_IAppProviderInstallWizzard.htm" />
+  <HelpKINode Title="IAppProviderInstallWizzard interface">
+    <HelpKINode Title="about IAppProviderInstallWizzard interface" Url="html/T_AppVisum_Sys_IAppProviderInstallWizzard.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_IAppProviderInstallWizzard.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_IAppProviderInstallWizzard.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_IAppProviderInstallWizzard.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppProviderInstallWizzard.GetStep method" Url="html/M_AppVisum_Sys_IAppProviderInstallWizzard_GetStep.htm" />
+  <HelpKINode Title="IAppProviderInstallWizzard.HandleStep method" Url="html/M_AppVisum_Sys_IAppProviderInstallWizzard_HandleStep.htm" />
+  <HelpKINode Title="IAppProviderInstallWizzard.InstallationStepsCount property" Url="html/P_AppVisum_Sys_IAppProviderInstallWizzard_InstallationStepsCount.htm" />
+  <HelpKINode Title="IAppProviderModelBinder class" Url="html/AllMembers_T_AppVisum_Sys_ModelBinders_IAppProviderModelBinder.htm" />
+  <HelpKINode Title="IAppProviderModelBinder class" Url="html/T_AppVisum_Sys_ModelBinders_IAppProviderModelBinder.htm" />
+  <HelpKINode Title="IAppProviderModelBinder class">
+    <HelpKINode Title="about IAppProviderModelBinder class" Url="html/T_AppVisum_Sys_ModelBinders_IAppProviderModelBinder.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_ModelBinders_IAppProviderModelBinder.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_ModelBinders_IAppProviderModelBinder__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_ModelBinders_IAppProviderModelBinder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppProviderModelBinder.BindModel method" Url="html/M_AppVisum_Sys_ModelBinders_IAppProviderModelBinder_BindModel.htm" />
+  <HelpKINode Title="IAppProviderModelBinder.IAppProviderModelBinder constructor" Url="html/M_AppVisum_Sys_ModelBinders_IAppProviderModelBinder__ctor.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter class" Url="html/AllMembers_T_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter class" Url="html/T_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter class">
+    <HelpKINode Title="about IAppProviderTypeConverter class" Url="html/T_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAppProviderTypeConverter.CanConvertFrom method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_CanConvertFrom.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.CanConvertTo method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_CanConvertTo.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.ConvertFrom method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertFrom.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.ConvertFromInvariantString method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertFromInvariantString.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.ConvertFromString method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertFromString.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.ConvertTo method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertTo.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.ConvertToInvariantString method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertToInvariantString.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.ConvertToString method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_ConvertToString.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.CreateInstance method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_CreateInstance.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.GetCreateInstanceSupported method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetCreateInstanceSupported.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.GetProperties method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetProperties.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.GetPropertiesSupported method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetPropertiesSupported.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.GetStandardValues method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetStandardValues.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.GetStandardValuesExclusive method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetStandardValuesExclusive.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.GetStandardValuesSupported method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_GetStandardValuesSupported.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.IAppProviderTypeConverter constructor" Url="html/M_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter__ctor.htm" />
+  <HelpKINode Title="IAppProviderTypeConverter.IsValid method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_IsValid.htm" />
+  <HelpKINode Title="Id property" Url="html/P_AppVisum_Sys_Configuration_PluginBinding_Id.htm" />
+  <HelpKINode Title="Id property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Id.htm" />
+  <HelpKINode Title="Id property" Url="html/P_AppVisum_Sys_Plugin_Id.htm" />
+  <HelpKINode Title="IInstallField interface" Url="html/AllMembers_T_AppVisum_Sys_Install_IInstallField.htm" />
+  <HelpKINode Title="IInstallField interface" Url="html/T_AppVisum_Sys_Install_IInstallField.htm" />
+  <HelpKINode Title="IInstallField interface">
+    <HelpKINode Title="about IInstallField interface" Url="html/T_AppVisum_Sys_Install_IInstallField.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_IInstallField.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_IInstallField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IInstallField.Parse method" Url="html/M_AppVisum_Sys_Install_IInstallField_Parse.htm" />
+  <HelpKINode Title="IInstallField.Render method" Url="html/M_AppVisum_Sys_Install_IInstallField_Render.htm" />
+  <HelpKINode Title="InputInstallField(Of T) class" Url="html/AllMembers_T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  <HelpKINode Title="InputInstallField(Of T) class" Url="html/T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  <HelpKINode Title="InputInstallField(Of T) class">
+    <HelpKINode Title="about InputInstallField(Of T) class" Url="html/T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Install_InputInstallField_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputInstallField(Of T).InputInstallField constructor" Url="html/M_AppVisum_Sys_Install_InputInstallField_1__ctor.htm" />
+  <HelpKINode Title="InputInstallField(Of T).Parse method" Url="html/M_AppVisum_Sys_Install_InputInstallField_1_Parse.htm" />
+  <HelpKINode Title="InputInstallField(Of T).Render method" Url="html/M_AppVisum_Sys_Install_InputInstallField_1_Render.htm" />
+  <HelpKINode Title="InputInstallField&lt;T&gt; class" Url="html/AllMembers_T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  <HelpKINode Title="InputInstallField&lt;T&gt; class" Url="html/T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  <HelpKINode Title="InputInstallField&lt;T&gt; class">
+    <HelpKINode Title="about InputInstallField&lt;T&gt; class" Url="html/T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Install_InputInstallField_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_InputInstallField_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputInstallField&lt;T&gt;.InputInstallField constructor" Url="html/M_AppVisum_Sys_Install_InputInstallField_1__ctor.htm" />
+  <HelpKINode Title="InputInstallField&lt;T&gt;.Parse method" Url="html/M_AppVisum_Sys_Install_InputInstallField_1_Parse.htm" />
+  <HelpKINode Title="InputInstallField&lt;T&gt;.Render method" Url="html/M_AppVisum_Sys_Install_InputInstallField_1_Render.htm" />
+  <HelpKINode Title="Install enumeration member" Url="html/T_AppVisum_Sys_AppPluginStatus.htm" />
+  <HelpKINode Title="InstallationStepsCount property" Url="html/P_AppVisum_Sys_IAppProviderInstallWizzard_InstallationStepsCount.htm" />
+  <HelpKINode Title="InstallStep property" Url="html/P_AppVisum_Sys_Configuration_Plugin_InstallStep.htm" />
+  <HelpKINode Title="InstallStep property" Url="html/P_AppVisum_Sys_Plugin_InstallStep.htm" />
+  <HelpKINode Title="Instance enumeration member" Url="html/T_AppVisum_Sys_AppPluginStatus.htm" />
+  <HelpKINode Title="Instance property" Url="html/P_AppVisum_Sys_AppSys_Instance.htm" />
+  <HelpKINode Title="InstanceName property" Url="html/P_AppVisum_Sys_Configuration_Plugin_InstanceName.htm" />
+  <HelpKINode Title="InstanceName property" Url="html/P_AppVisum_Sys_Plugin_InstanceName.htm" />
+  <HelpKINode Title="IsContentProvider property" Url="html/P_AppVisum_Sys_Plugin_IsContentProvider.htm" />
+  <HelpKINode Title="IsEnabled property" Url="html/P_AppVisum_Sys_Plugin_IsEnabled.htm" />
+  <HelpKINode Title="IsInstanced property" Url="html/P_AppVisum_Sys_Plugin_IsInstanced.htm" />
+  <HelpKINode Title="IsModelProvider property" Url="html/P_AppVisum_Sys_Plugin_IsModelProvider.htm" />
+  <HelpKINode Title="IsNew property" Url="html/P_AppVisum_Sys_Plugin_IsNew.htm" />
+  <HelpKINode Title="IsSetupComplete property" Url="html/P_AppVisum_Sys_Plugin_IsSetupComplete.htm" />
+  <HelpKINode Title="IsValid method" Url="html/Overload_AppVisum_Sys_CustomAnnotations_EmailAttribute_IsValid.htm" />
+  <HelpKINode Title="IsValid method" Url="html/Overload_AppVisum_Sys_CustomAnnotations_MatchesAttribute_IsValid.htm" />
+  <HelpKINode Title="IsValid method" Url="html/Overload_AppVisum_Sys_TypeConverters_IAppProviderTypeConverter_IsValid.htm" />
+  <HelpKINode Title="IWizzardStep interface" Url="html/AllMembers_T_AppVisum_Sys_Install_IWizzardStep.htm" />
+  <HelpKINode Title="IWizzardStep interface" Url="html/T_AppVisum_Sys_Install_IWizzardStep.htm" />
+  <HelpKINode Title="IWizzardStep interface">
+    <HelpKINode Title="about IWizzardStep interface" Url="html/T_AppVisum_Sys_Install_IWizzardStep.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_IWizzardStep.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_IWizzardStep.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IWizzardStep.GetTitle method" Url="html/M_AppVisum_Sys_Install_IWizzardStep_GetTitle.htm" />
+  <HelpKINode Title="IWizzardStep.SetAppProvider method" Url="html/M_AppVisum_Sys_Install_IWizzardStep_SetAppProvider.htm" />
+  <HelpKINode Title="LableInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_LableInstallField.htm" />
+  <HelpKINode Title="LableInstallField class" Url="html/T_AppVisum_Sys_Install_LableInstallField.htm" />
+  <HelpKINode Title="LableInstallField class">
+    <HelpKINode Title="about LableInstallField class" Url="html/T_AppVisum_Sys_Install_LableInstallField.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_LableInstallField.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Install_LableInstallField__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_LableInstallField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LableInstallField.LableInstallField constructor" Url="html/M_AppVisum_Sys_Install_LableInstallField__ctor.htm" />
+  <HelpKINode Title="LableInstallField.Render method" Url="html/M_AppVisum_Sys_Install_LableInstallField_Render.htm" />
+  <HelpKINode Title="MatchesAttribute class" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_MatchesAttribute.htm" />
+  <HelpKINode Title="MatchesAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_MatchesAttribute.htm" />
+  <HelpKINode Title="MatchesAttribute class">
+    <HelpKINode Title="about MatchesAttribute class" Url="html/T_AppVisum_Sys_CustomAnnotations_MatchesAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_CustomAnnotations_MatchesAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_CustomAnnotations_MatchesAttribute__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_CustomAnnotations_MatchesAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_CustomAnnotations_MatchesAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MatchesAttribute.IsValid method" Url="html/Overload_AppVisum_Sys_CustomAnnotations_MatchesAttribute_IsValid.htm" />
+  <HelpKINode Title="MatchesAttribute.MatchesAttribute constructor" Url="html/M_AppVisum_Sys_CustomAnnotations_MatchesAttribute__ctor.htm" />
+  <HelpKINode Title="MatchesAttribute.Validate method" Url="html/Overload_AppVisum_Sys_CustomAnnotations_MatchesAttribute_Validate.htm" />
+  <HelpKINode Title="Model enumeration member" Url="html/T_AppVisum_Sys_AppPluginStatus.htm" />
+  <HelpKINode Title="Name property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Name.htm" />
+  <HelpKINode Title="Name property" Url="html/P_AppVisum_Sys_IAppEmailAccount_Name.htm" />
+  <HelpKINode Title="Name property" Url="html/P_AppVisum_Sys_IAppProvider_Name.htm" />
+  <HelpKINode Title="New enumeration member" Url="html/T_AppVisum_Sys_AppPluginStatus.htm" />
+  <HelpKINode Title="P(Of T) method" Url="html/M_AppVisum_Sys_Plugin_P__1.htm" />
+  <HelpKINode Title="P&lt;T&gt; method" Url="html/M_AppVisum_Sys_Plugin_P__1.htm" />
+  <HelpKINode Title="Parse method" Url="html/M_AppVisum_Sys_Install_DisplayInstallField_Parse.htm" />
+  <HelpKINode Title="Parse method" Url="html/M_AppVisum_Sys_Install_IInstallField_Parse.htm" />
+  <HelpKINode Title="Parse method" Url="html/M_AppVisum_Sys_Install_InputInstallField_1_Parse.htm" />
+  <HelpKINode Title="Parse method" Url="html/M_AppVisum_Sys_Install_TextBoxInstallField_Parse.htm" />
+  <HelpKINode Title="PasswordInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_PasswordInstallField.htm" />
+  <HelpKINode Title="PasswordInstallField class" Url="html/T_AppVisum_Sys_Install_PasswordInstallField.htm" />
+  <HelpKINode Title="PasswordInstallField class">
+    <HelpKINode Title="about PasswordInstallField class" Url="html/T_AppVisum_Sys_Install_PasswordInstallField.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_PasswordInstallField.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Install_PasswordInstallField__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_AppVisum_Sys_Install_PasswordInstallField.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_PasswordInstallField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PasswordInstallField.PasswordInstallField constructor" Url="html/M_AppVisum_Sys_Install_PasswordInstallField__ctor.htm" />
+  <HelpKINode Title="Path property" Url="html/P_AppVisum_Sys_Configuration_PluginBinding_Path.htm" />
+  <HelpKINode Title="Plugin class" Url="html/AllMembers_T_AppVisum_Sys_Configuration_Plugin.htm" />
+  <HelpKINode Title="Plugin class" Url="html/AllMembers_T_AppVisum_Sys_Plugin.htm" />
+  <HelpKINode Title="Plugin class" Url="html/T_AppVisum_Sys_Configuration_Plugin.htm" />
+  <HelpKINode Title="Plugin class" Url="html/T_AppVisum_Sys_Plugin.htm" />
+  <HelpKINode Title="Plugin class">
+    <HelpKINode Title="about Plugin class" Url="html/T_AppVisum_Sys_Configuration_Plugin.htm" />
+    <HelpKINode Title="about Plugin class" Url="html/T_AppVisum_Sys_Plugin.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Configuration_Plugin.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Plugin.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Configuration_Plugin__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Plugin__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Configuration_Plugin.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Plugin.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_Configuration_Plugin.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_Plugin.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Plugin.Bindings property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Bindings.htm" />
+  <HelpKINode Title="Plugin.Bindings property" Url="html/P_AppVisum_Sys_Plugin_Bindings.htm" />
+  <HelpKINode Title="Plugin.DbId property" Url="html/P_AppVisum_Sys_Plugin_DbId.htm" />
+  <HelpKINode Title="Plugin.GetPluginDbId method" Url="html/M_AppVisum_Sys_Plugin_GetPluginDbId.htm" />
+  <HelpKINode Title="Plugin.GetPluginId method" Url="html/M_AppVisum_Sys_Plugin_GetPluginId.htm" />
+  <HelpKINode Title="Plugin.HasInstallWizzard property" Url="html/P_AppVisum_Sys_Plugin_HasInstallWizzard.htm" />
+  <HelpKINode Title="Plugin.Id property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Id.htm" />
+  <HelpKINode Title="Plugin.Id property" Url="html/P_AppVisum_Sys_Plugin_Id.htm" />
+  <HelpKINode Title="Plugin.InstallStep property" Url="html/P_AppVisum_Sys_Configuration_Plugin_InstallStep.htm" />
+  <HelpKINode Title="Plugin.InstallStep property" Url="html/P_AppVisum_Sys_Plugin_InstallStep.htm" />
+  <HelpKINode Title="Plugin.InstanceName property" Url="html/P_AppVisum_Sys_Configuration_Plugin_InstanceName.htm" />
+  <HelpKINode Title="Plugin.InstanceName property" Url="html/P_AppVisum_Sys_Plugin_InstanceName.htm" />
+  <HelpKINode Title="Plugin.IsContentProvider property" Url="html/P_AppVisum_Sys_Plugin_IsContentProvider.htm" />
+  <HelpKINode Title="Plugin.IsEnabled property" Url="html/P_AppVisum_Sys_Plugin_IsEnabled.htm" />
+  <HelpKINode Title="Plugin.IsInstanced property" Url="html/P_AppVisum_Sys_Plugin_IsInstanced.htm" />
+  <HelpKINode Title="Plugin.IsModelProvider property" Url="html/P_AppVisum_Sys_Plugin_IsModelProvider.htm" />
+  <HelpKINode Title="Plugin.IsNew property" Url="html/P_AppVisum_Sys_Plugin_IsNew.htm" />
+  <HelpKINode Title="Plugin.IsSetupComplete property" Url="html/P_AppVisum_Sys_Plugin_IsSetupComplete.htm" />
+  <HelpKINode Title="Plugin.Name property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Name.htm" />
+  <HelpKINode Title="Plugin.P(Of T) method" Url="html/M_AppVisum_Sys_Plugin_P__1.htm" />
+  <HelpKINode Title="Plugin.P&lt;T&gt; method" Url="html/M_AppVisum_Sys_Plugin_P__1.htm" />
+  <HelpKINode Title="Plugin.Plugin constructor" Url="html/M_AppVisum_Sys_Configuration_Plugin__ctor.htm" />
+  <HelpKINode Title="Plugin.Plugin constructor" Url="html/M_AppVisum_Sys_Plugin__ctor.htm" />
+  <HelpKINode Title="Plugin.PluginObj property" Url="html/P_AppVisum_Sys_Plugin_PluginObj.htm" />
+  <HelpKINode Title="Plugin.PluginTypeName property" Url="html/P_AppVisum_Sys_Configuration_Plugin_PluginTypeName.htm" />
+  <HelpKINode Title="Plugin.Settings property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Settings.htm" />
+  <HelpKINode Title="Plugin.Status property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Status.htm" />
+  <HelpKINode Title="Plugin.StatusString property" Url="html/P_AppVisum_Sys_Plugin_StatusString.htm" />
+  <HelpKINode Title="PluginBinding class" Url="html/AllMembers_T_AppVisum_Sys_Configuration_PluginBinding.htm" />
+  <HelpKINode Title="PluginBinding class" Url="html/T_AppVisum_Sys_Configuration_PluginBinding.htm" />
+  <HelpKINode Title="PluginBinding class">
+    <HelpKINode Title="about PluginBinding class" Url="html/T_AppVisum_Sys_Configuration_PluginBinding.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Configuration_PluginBinding.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Configuration_PluginBinding__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Configuration_PluginBinding.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_Configuration_PluginBinding.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PluginBinding.Id property" Url="html/P_AppVisum_Sys_Configuration_PluginBinding_Id.htm" />
+  <HelpKINode Title="PluginBinding.Path property" Url="html/P_AppVisum_Sys_Configuration_PluginBinding_Path.htm" />
+  <HelpKINode Title="PluginBinding.PluginBinding constructor" Url="html/M_AppVisum_Sys_Configuration_PluginBinding__ctor.htm" />
+  <HelpKINode Title="PluginConfigs property" Url="html/P_AppVisum_Sys_AppSys_PluginConfigs.htm" />
+  <HelpKINode Title="PluginObj property" Url="html/P_AppVisum_Sys_Plugin_PluginObj.htm" />
+  <HelpKINode Title="Plugins property" Url="html/P_AppVisum_Sys_AppSys_Plugins.htm" />
+  <HelpKINode Title="PluginSettings property" Url="html/P_AppVisum_Sys_AppSys_PluginSettings.htm" />
+  <HelpKINode Title="PluginSettingsProvider class" Url="html/AllMembers_T_AppVisum_Sys_PluginSettingsProvider.htm" />
+  <HelpKINode Title="PluginSettingsProvider class" Url="html/T_AppVisum_Sys_PluginSettingsProvider.htm" />
+  <HelpKINode Title="PluginSettingsProvider class">
+    <HelpKINode Title="about PluginSettingsProvider class" Url="html/T_AppVisum_Sys_PluginSettingsProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_PluginSettingsProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_PluginSettingsProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PluginSettingsProvider.Get method" Url="html/M_AppVisum_Sys_PluginSettingsProvider_Get.htm" />
+  <HelpKINode Title="PluginSettingsProvider.Set method" Url="html/Overload_AppVisum_Sys_PluginSettingsProvider_Set.htm" />
+  <HelpKINode Title="PluginStatus enumeration" Url="html/T_AppVisum_Sys_Configuration_PluginStatus.htm" />
+  <HelpKINode Title="PluginTypeName property" Url="html/P_AppVisum_Sys_Configuration_Plugin_PluginTypeName.htm" />
+  <HelpKINode Title="Render method" Url="html/M_AppVisum_Sys_Install_DisplayInstallField_Render.htm" />
+  <HelpKINode Title="Render method" Url="html/M_AppVisum_Sys_Install_IInstallField_Render.htm" />
+  <HelpKINode Title="Render method" Url="html/M_AppVisum_Sys_Install_InputInstallField_1_Render.htm" />
+  <HelpKINode Title="Render method" Url="html/M_AppVisum_Sys_Install_LableInstallField_Render.htm" />
+  <HelpKINode Title="Render method" Url="html/M_AppVisum_Sys_Install_TextBoxInstallField_Render.htm" />
+  <HelpKINode Title="Render method" Url="html/M_AppVisum_Sys_Install_TitleInstallField_Render.htm" />
+  <HelpKINode Title="Restart method" Url="html/M_AppVisum_Sys_AppSys_Restart.htm" />
+  <HelpKINode Title="Send method" Url="html/M_AppVisum_Sys_IAppEmailSender_Send.htm" />
+  <HelpKINode Title="Set method" Url="html/Overload_AppVisum_Sys_PluginSettingsProvider_Set.htm" />
+  <HelpKINode Title="SetAppProvider method" Url="html/M_AppVisum_Sys_Install_IWizzardStep_SetAppProvider.htm" />
+  <HelpKINode Title="SetAppProvider method" Url="html/M_AppVisum_Sys_Install_WizzardStep_SetAppProvider.htm" />
+  <HelpKINode Title="Settings property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Settings.htm" />
+  <HelpKINode Title="SetupIncomplete enumeration member" Url="html/T_AppVisum_Sys_AppPluginStatus.htm" />
+  <HelpKINode Title="Status property" Url="html/P_AppVisum_Sys_Configuration_Plugin_Status.htm" />
+  <HelpKINode Title="StatusString property" Url="html/P_AppVisum_Sys_Plugin_StatusString.htm" />
+  <HelpKINode Title="TextBoxInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_TextBoxInstallField.htm" />
+  <HelpKINode Title="TextBoxInstallField class" Url="html/T_AppVisum_Sys_Install_TextBoxInstallField.htm" />
+  <HelpKINode Title="TextBoxInstallField class">
+    <HelpKINode Title="about TextBoxInstallField class" Url="html/T_AppVisum_Sys_Install_TextBoxInstallField.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_TextBoxInstallField.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Install_TextBoxInstallField__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_AppVisum_Sys_Install_TextBoxInstallField.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_TextBoxInstallField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TextBoxInstallField.Parse method" Url="html/M_AppVisum_Sys_Install_TextBoxInstallField_Parse.htm" />
+  <HelpKINode Title="TextBoxInstallField.Render method" Url="html/M_AppVisum_Sys_Install_TextBoxInstallField_Render.htm" />
+  <HelpKINode Title="TextBoxInstallField.TextBoxInstallField constructor" Url="html/M_AppVisum_Sys_Install_TextBoxInstallField__ctor.htm" />
+  <HelpKINode Title="TextBoxInstallField.type field" Url="html/F_AppVisum_Sys_Install_TextBoxInstallField_type.htm" />
+  <HelpKINode Title="TitleInstallField class" Url="html/AllMembers_T_AppVisum_Sys_Install_TitleInstallField.htm" />
+  <HelpKINode Title="TitleInstallField class" Url="html/T_AppVisum_Sys_Install_TitleInstallField.htm" />
+  <HelpKINode Title="TitleInstallField class">
+    <HelpKINode Title="about TitleInstallField class" Url="html/T_AppVisum_Sys_Install_TitleInstallField.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_TitleInstallField.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Install_TitleInstallField__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_TitleInstallField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TitleInstallField.Render method" Url="html/M_AppVisum_Sys_Install_TitleInstallField_Render.htm" />
+  <HelpKINode Title="TitleInstallField.TitleInstallField constructor" Url="html/M_AppVisum_Sys_Install_TitleInstallField__ctor.htm" />
+  <HelpKINode Title="type field" Url="html/F_AppVisum_Sys_Install_TextBoxInstallField_type.htm" />
+  <HelpKINode Title="TypeExtensions class" Url="html/AllMembers_T_AppVisum_Sys_TypeExtensions.htm" />
+  <HelpKINode Title="TypeExtensions class" Url="html/T_AppVisum_Sys_TypeExtensions.htm" />
+  <HelpKINode Title="TypeExtensions class">
+    <HelpKINode Title="about TypeExtensions class" Url="html/T_AppVisum_Sys_TypeExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_TypeExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_TypeExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TypeExtensions.HasInterface method" Url="html/M_AppVisum_Sys_TypeExtensions_HasInterface.htm" />
+  <HelpKINode Title="Validate method" Url="html/Overload_AppVisum_Sys_CustomAnnotations_EmailAttribute_Validate.htm" />
+  <HelpKINode Title="Validate method" Url="html/Overload_AppVisum_Sys_CustomAnnotations_MatchesAttribute_Validate.htm" />
+  <HelpKINode Title="WizzardStep class" Url="html/AllMembers_T_AppVisum_Sys_Install_WizzardStep.htm" />
+  <HelpKINode Title="WizzardStep class" Url="html/T_AppVisum_Sys_Install_WizzardStep.htm" />
+  <HelpKINode Title="WizzardStep class">
+    <HelpKINode Title="about WizzardStep class" Url="html/T_AppVisum_Sys_Install_WizzardStep.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_Install_WizzardStep.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_Install_WizzardStep__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_AppVisum_Sys_Install_WizzardStep.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_Install_WizzardStep.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WizzardStep.appProvider field" Url="html/F_AppVisum_Sys_Install_WizzardStep_appProvider.htm" />
+  <HelpKINode Title="WizzardStep.GetTitle method" Url="html/M_AppVisum_Sys_Install_WizzardStep_GetTitle.htm" />
+  <HelpKINode Title="WizzardStep.SetAppProvider method" Url="html/M_AppVisum_Sys_Install_WizzardStep_SetAppProvider.htm" />
+  <HelpKINode Title="WizzardStep.WizzardStep constructor" Url="html/M_AppVisum_Sys_Install_WizzardStep__ctor.htm" />
+  <HelpKINode Title="WizzardStepModelBinder class" Url="html/AllMembers_T_AppVisum_Sys_ModelBinders_WizzardStepModelBinder.htm" />
+  <HelpKINode Title="WizzardStepModelBinder class" Url="html/T_AppVisum_Sys_ModelBinders_WizzardStepModelBinder.htm" />
+  <HelpKINode Title="WizzardStepModelBinder class">
+    <HelpKINode Title="about WizzardStepModelBinder class" Url="html/T_AppVisum_Sys_ModelBinders_WizzardStepModelBinder.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_AppVisum_Sys_ModelBinders_WizzardStepModelBinder.htm" />
+    <HelpKINode Title="constructor" Url="html/M_AppVisum_Sys_ModelBinders_WizzardStepModelBinder__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_AppVisum_Sys_ModelBinders_WizzardStepModelBinder.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_AppVisum_Sys_ModelBinders_WizzardStepModelBinder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WizzardStepModelBinder.BindModel method" Url="html/M_AppVisum_Sys_ModelBinders_WizzardStepModelBinder_BindModel.htm" />
+  <HelpKINode Title="WizzardStepModelBinder.WizzardStepModelBinder constructor" Url="html/M_AppVisum_Sys_ModelBinders_WizzardStepModelBinder__ctor.htm" />
+</HelpKI>
